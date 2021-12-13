@@ -1,0 +1,57 @@
+body {
+    background: #eee;
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.main input {
+    padding: 10px;
+    border-radius: 30px;
+    background: #eee;
+    width: 300px;
+    border:none;
+}
+
+.btn {
+    background: rgb(31, 223, 31);
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.bg {
+    background: #fff;
+    padding: 50px;
+    margin: 50px  300px auto 300px;
+}
+
+.header {
+    margin-right :10px;
+}
+
+.login {
+    margin-right: 16rem;
+    margin-bottom: 40px;
+    font-weight:500;
+}
+
+.regLink:hover {
+   background: green;
+   color: #fff;
+}
